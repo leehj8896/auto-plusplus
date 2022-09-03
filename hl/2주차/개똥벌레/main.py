@@ -1,51 +1,32 @@
-
-# 입력받기
+from bisect import bisect_left
 import sys
-readline = sys.stdin.readline
-N, H = map(int, readline().split())
-tops = []
-bottoms = []
-for i in range(N):
-    length = int(readline())
-    # 바닥이면
+
+# 입력 받기
+input = sys.stdin.readline
+W, H = map(int, input().split())
+tops, bottoms = [], []
+for i in range(W):
+    length = int(input())
     if i % 2 == 0:
         bottoms.append(length)
-    # 천장이면
     else:
         tops.append(length)
 tops.sort()
 bottoms.sort()
-print('tops     ', tops)
-print('bottoms  ', bottoms)
 
-# 이분탐색 (만나는 개수는 증가함) (처음 만나는 위치 찾기)
+최소만나는개수 = float('inf')
+구간의수 = 0
 
-left = 0
-right = N // 2
+# 모든 y, y+1 탐색
+# 해당 y에서 처음 만나는 x값 탐색
+for y in range(H):
+    x1 = bisect_left(tops, y+1)             # top이 y+1보다 내려오는 인덱스
+    x2 = bisect_left(bottoms, H-y)          # bottom이 y보다 올라가는 인덱스
+    만나는개수 = (W//2 - x1) + (W//2 - x2)
+    if 최소만나는개수 > 만나는개수:
+        최소만나는개수 = 만나는개수
+        구간의수 = 1
+    elif 최소만나는개수 == 만나는개수:
+        구간의수 += 1
 
-print("left", left)
-print("right", right)
-
-def meet(i):
-    height1 = H - tops[i]
-    height2 = bottoms[i]
-    if height1 < height2:
-        return True
-    return False
-
-
-while True:
-    mid = (left + right) // 2
-    print("mid", mid)
-
-    if mid-1 < 0:
-        break
-    if mid >= N // 2:
-        break
-
-    if not meet(mid-1) and meet(mid):
-        break
-    if meet(mid-1) and meet(mid):           # 왼쪽으로
-        right = mid
-    if not meet(mid-1) and not meet(mid):   # 오른쪽으로
-        left = mid
+print(최소만나는개수, 구간의수)
