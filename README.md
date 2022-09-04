@@ -19,4 +19,4 @@
 - 4주차 문제
   - [스도쿠](https://www.acmicpc.net/problem/2239)
   - [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)
-  - [파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
+  - [파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
