@@ -21,8 +21,8 @@ for i in range(1, N+1):
         if cost[i] > j:
             dp[i][j] = dp[i-1][j]                   # 위에거
         else:
-            case1 = dp[i-1][j-cost[i]] + memory[i]  # 현재 앱 포함할 경우 최대비용
-            case2 = dp[i-1][j]                      # 현재 앱 포함하지 않을 경우 최대비용
+            case1 = dp[i-1][j-cost[i]] + memory[i]  # 현재 앱 포함할 경우 최대메모리
+            case2 = dp[i-1][j]                      # 현재 앱 포함하지 않을 경우 최대메모리
             dp[i][j] = max(case1, case2)
 
         # 결과 기록
