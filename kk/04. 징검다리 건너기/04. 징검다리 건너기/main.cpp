@@ -12,7 +12,6 @@ using namespace std;
 int N,K;
 int small[20];
 int big[20];
-int dp[20];
 int minE = 999999;
 
 void dfs(int n, int curE, bool didJump){
@@ -30,8 +29,6 @@ void dfs(int n, int curE, bool didJump){
             dfs(n+2,curE + big[n],didJump);
         }
     }
-
-    
 }
 
 
