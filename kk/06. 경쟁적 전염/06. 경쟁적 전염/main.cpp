@@ -19,7 +19,7 @@ struct Virus {
 int N,K,S,x,y,cnt;
 vector <Virus>  board;
 int map[201][201];
-int nnew[201][201];
+
 int dr[4] = {0,0,1,-1};
 int dc[4] = {1,-1,0,0};
 
@@ -40,8 +40,6 @@ void breeding(){
             }
         }
     }
-    
-    
 }
 
 
