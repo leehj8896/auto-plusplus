@@ -12,7 +12,7 @@ using namespace std;
 int N,H,cnt;
 int top[500001];
 int bottom[500001];
-int sum[500001];
+
 int main(void) {
     cin >> N >> H;
     for(int i=0; i<N/2; i++){
