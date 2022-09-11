@@ -1,13 +1,22 @@
-- 1주차  
-    ~~괄호~~ 220821  
-    ~~체스판 다시 칠하기~~ 220821  
-    외판원 순회  
-    앱    
-- 2주차  
-    ~~개똥벌레~~ 220902  
-    ~~경쟁적 전염~~ 220904  
-    양과 늑대    
-- 3주차  
-    ~~징검다리 건너기~~ 220903  
-    ~~녹색 옷 입은 애가 젤다지?~~ 220903  
-    벽 부수고 이동하기  
+- 1주차 문제  
+  :white_check_mark: [괄호](https://github.com/leehj8896/auto-plusplus/tree/main/kk/01.%20bracket) 220821  
+  :white_check_mark: [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)  220821  
+  :ballot_box_with_check: [외판원순회](https://www.acmicpc.net/problem/2098)   
+  :ballot_box_with_check: [앱](https://www.acmicpc.net/problem/7579)
+  
+- 2주차 문제  
+  :white_check_mark: [경쟁적 전염](https://www.acmicpc.net/problem/18405)  220904  
+  :white_check_mark: [개똥벌레](https://www.acmicpc.net/problem/3020)  220902  
+  :ballot_box_with_check: [양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)  
+  
+- 3주차 문제  
+  :white_check_mark: [징검다리 건너기](https://www.acmicpc.net/problem/21317)  220903  
+  :white_check_mark: [녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)  220903    
+  :ballot_box_with_check: [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)  
+  
+- 4주차 문제  
+  :ballot_box_with_check: [스도쿠](https://www.acmicpc.net/problem/2239)  
+  :ballot_box_with_check: [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)  
+  :ballot_box_with_check: [파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)  
+
+
