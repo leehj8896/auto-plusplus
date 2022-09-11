@@ -12,7 +12,7 @@
 - 3주차 문제  
   :white_check_mark: [징검다리 건너기](https://www.acmicpc.net/problem/21317)  220903  
   :white_check_mark: [녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)  220903    
-  :ballot_box_with_check: [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)  
+  :white_check_mark: [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) 220911  
   
 - 4주차 문제  
   :ballot_box_with_check: [스도쿠](https://www.acmicpc.net/problem/2239)  
