@@ -15,8 +15,8 @@
   :white_check_mark: [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) 220911  
   
 - 4주차 문제  
-  :ballot_box_with_check: [스도쿠](https://www.acmicpc.net/problem/2239)  
-  :ballot_box_with_check: [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)  
+  :white_check_mark: [스도쿠](https://www.acmicpc.net/problem/2239)  220918  
+  :white_check_mark: [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)  220918  
   :ballot_box_with_check: [파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)  
 
 
