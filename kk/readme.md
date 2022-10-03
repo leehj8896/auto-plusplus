@@ -19,4 +19,7 @@
   :white_check_mark: [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)  220918  
   :ballot_box_with_check: [파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)  
 
-
+- 5주차 문제  
+  :white_check_mark: [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)  221002  
+  :white_check_mark: [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)  221002  
+  :ballot_box_with_check: [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
