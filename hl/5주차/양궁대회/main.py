@@ -9,15 +9,14 @@ def solution(n, info):
         global score, answer
         # 끝에 도달
         if i == len(lion):
-
             # 남는 화살 0점에 다 쏨
             shot = sum(lion)
             if shot < n:
                 lion[-1] += n-shot
 
             # 점수 계산
-            score1 = 0
-            score2 = 0
+            score1 = 0  # 어피치 점수
+            score2 = 0  # 라이언 점수
             for j in range(len(lion)):
                 if info[j] == 0 and lion[j] == 0:
                     continue
@@ -41,7 +40,7 @@ def solution(n, info):
             return
 
         # j발 쏨
-        for j in range(remains+1):
+        for j in range(remains+1): # 0,1,2,3,4, ..., 10 (n=10)
             lion[i] = j
             dfs(i+1, remains-j)
             lion[i] = 0

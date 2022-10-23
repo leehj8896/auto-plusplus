@@ -6,8 +6,10 @@ def solution(fees, records):
     for row in records:
         time_string, car_num, in_out = row.split()
         
+        # 입차일 경우
         if in_out == "IN":
             in_time[car_num] = string_to_num(time_string)
+        # 출차일 경우
         else:
             t1 = in_time[car_num]
             t2 = string_to_num(time_string)
@@ -19,6 +21,7 @@ def solution(fees, records):
 
             in_time.pop(car_num)
 
+    # 안 나온 차량
     for car_num in in_time:
         t1 = in_time[car_num]
         t2 = string_to_num("23:59")
