@@ -9,3 +9,4 @@
 | 5주차 | [두 큐 합 같게 만들기](두큐합같게만들기.java), [주차 요금 계산](5주차/주차요금계산.java), [양궁대회](5주차/양궁대회.java) |
 | 6주차 | [Coin Change](6주차/CoinChange.java), [Missing Number](6주차/MissingNumber.java), [내리막길](6주차/내리막길.java) |
 | 7주차 | [Group Anagrams](7주차/GroupAnagrams.java), [Maximum Subarray](7주차/MaximumSubarray.java) |
+| 8주차 | [회사 문화 1](회사문화1.java), [Pacific Atlantic Water Flow](PacificAtlanticWaterFlow.java), [Decode Ways](8주차/DecodeWays.java) |
